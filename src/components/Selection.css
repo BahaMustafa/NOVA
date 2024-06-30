@@ -2,62 +2,64 @@
     text-align: center;
     margin-top: 20px;
     padding-bottom: 80px; /* Ensure content is above the footer */
-}
+  }
   
-input {
+  input {
     padding: 10px;
     font-size: 1rem;
     margin-bottom: 20px;
     width: 80%;
-}
+  }
   
-.buttons {
+  .buttons {
     display: flex;
     justify-content: center;
     gap: 10px;
     margin-bottom: 20px;
-}
+  }
   
-.items {
+  .items {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
     margin: 20px 0;
-}
+  }
   
-.item {
+  .item {
     cursor: pointer;
     padding: 10px;
     border: 1px solid #333;
     display: inline-block;
     width: 150px;
-}
+  }
   
-.item.selected {
+  .item.selected {
     background-color: #eecfdb;
     color: rgb(0, 0, 0);
-}
+  }
   
-.footer {
+  .footer {
     position: fixed;
     bottom: 0;
-    width: 100%; /* Added width for full footer width */
+    
+    
     background-color: #ffebcd;
     padding: 10px 20px;
     box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
+  }
   
-.footer button {
+  .footer button {
     padding: 10px 20px;
     font-size: 1rem;
     cursor: pointer;
-}
+  }
   
-.footer p {
+  .footer p {
     margin: 0;
     font-size: 1.2rem;
-}
+  }
+  
