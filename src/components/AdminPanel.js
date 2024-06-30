@@ -19,7 +19,7 @@ const AdminPanel = ({ setProduceItems }) => {
   };
 
   const handleAdd = () => {
-    if (!newItem.name || !newItem.code) {
+    if (!newItem.name.trim() || !newItem.code.trim()) {
       setMessage('Please fill in both fields.');
       setIsValid(false);
       return;
@@ -38,7 +38,7 @@ const AdminPanel = ({ setProduceItems }) => {
   };
 
   const handleUpdate = () => {
-    if (!newItem.name || !newItem.code) {
+    if (!newItem.name.trim() || !newItem.code.trim()) {
       setMessage('Please fill in both fields.');
       setIsValid(false);
       return;
@@ -112,10 +112,10 @@ const AdminPanel = ({ setProduceItems }) => {
       />
       <div className="items">
         {paginatedItems.map((item, index) => (
-          <div key={index} className="item">
+          <div key={`${item.code}-${index}`} className="item">
             <span>{item.name} - {item.code}</span>
-            <button onClick={() => handleEdit(index)}>Edit</button>
-            <button onClick={() => handleDelete(index)}>Delete</button>
+            <button onClick={() => handleEdit((currentPage - 1) * itemsPerPage + index)}>Edit</button>
+            <button onClick={() => handleDelete((currentPage - 1) * itemsPerPage + index)}>Delete</button>
           </div>
         ))}
       </div>

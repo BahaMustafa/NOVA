@@ -10,12 +10,13 @@ const Selection = ({ setSelectedItems }) => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    setFilteredItems(
-      produceData.filter((item) =>
-        item.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        item.code.includes(searchTerm)
-      )
-    );
+    const term = searchTerm.toLowerCase().trim();
+    const filtered = produceData.filter((item) => {
+      const itemName = item.name.toLowerCase().trim();
+      const itemCode = item.code.toLowerCase().trim();
+      return itemName.includes(term) || itemCode.includes(term);
+    });
+    setFilteredItems(filtered);
   }, [searchTerm]);
 
   const handleSelect = (code) => {
@@ -58,9 +59,9 @@ const Selection = ({ setSelectedItems }) => {
         <button onClick={handleDeselectAll}>Deselect All</button>
       </div>
       <div className="items">
-        {filteredItems.map((item) => (
+        {filteredItems.map((item, index) => (
           <div
-            key={item.code}
+            key={`${item.code}-${index}`}
             className={`item ${selectedCodes.includes(item.code) ? 'selected' : ''}`}
             onClick={() => handleSelect(item.code)}
           >
