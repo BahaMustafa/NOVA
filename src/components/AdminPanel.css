@@ -1,0 +1,64 @@
+.admin-panel {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .message {
+    color: green;
+    margin-bottom: 10px;
+  }
+  
+  .form {
+    margin-bottom: 20px;
+  }
+  
+  input {
+    padding: 10px;
+    font-size: 1rem;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .item {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #333;
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+  }
+  
+  button:hover {
+    background-color: #ddd;
+  }
+  
+  .invalid {
+    border-color: red;
+  }
+  
+  .search-bar {
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 1rem;
+  }
+  
+  .pagination {
+    margin-bottom: 20px;
+  }
+  
+  .pagination button {
+    padding: 5px 10px;
+  }
+  

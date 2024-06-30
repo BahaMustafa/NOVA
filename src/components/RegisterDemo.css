@@ -1,0 +1,136 @@
+.register-demo {
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #333;
+    background-color: #ffebcd;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #ff69b4;
+  }
+  
+  .screen {
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    min-height: 50px;
+  }
+  
+  .input-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    padding: 10px;
+    font-size: 1.2rem;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    width: 200px;
+    transition: border-color 0.3s;
+    background-color: #ffeb3b;
+  }
+  
+  input.correct-input {
+    border-color: #ff69b4;
+  }
+  
+  input.incorrect-input {
+    border-color: #ff4500;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    background-color: #ffd700;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+    box-shadow: 0 4px #999;
+  }
+  
+  button:hover {
+    background-color: #ff69b4;
+  }
+  
+  button:active {
+    background-color: #ff69b4;
+    box-shadow: 0 2px #666;
+    transform: translateY(2px);
+  }
+  
+  .feedback {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    background-color: #fff0f5;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+  }
+  
+  .feedback.correct {
+    color: #ff69b4;
+  }
+  
+  .feedback.incorrect {
+    color: #ff4500;
+  }
+  
+  .feedback p {
+    margin: 5px 0;
+  }
+  
+  .history {
+    margin-top: 20px;
+    text-align: left;
+    display: inline-block;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .history h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #ffd700;
+  }
+  
+  .history ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .history li {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    padding: 5px;
+  }
+  
+  .history li.correct {
+    color: #ff69b4;
+  }
+  
+  .history li.incorrect {
+    color: #ff4500;
+  }
+  
+  .history span {
+    font-size: 1rem;
+    color: gray;
+  }
+  
