@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/NOVA/static/css/main.4d0d8751.css",
-    "main.js": "/NOVA/static/js/main.413e1e16.js",
+    "main.js": "/NOVA/static/js/main.24c605aa.js",
     "static/js/453.bb420433.chunk.js": "/NOVA/static/js/453.bb420433.chunk.js",
     "index.html": "/NOVA/index.html",
     "main.4d0d8751.css.map": "/NOVA/static/css/main.4d0d8751.css.map",
-    "main.413e1e16.js.map": "/NOVA/static/js/main.413e1e16.js.map",
+    "main.24c605aa.js.map": "/NOVA/static/js/main.24c605aa.js.map",
     "453.bb420433.chunk.js.map": "/NOVA/static/js/453.bb420433.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4d0d8751.css",
-    "static/js/main.413e1e16.js"
+    "static/js/main.24c605aa.js"
   ]
 }
