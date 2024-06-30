@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/BahaMustafa/NOVA/static/css/main.b5d5d8c5.css",
+    "main.js": "/BahaMustafa/NOVA/static/js/main.931af3f9.js",
+    "static/js/453.bb420433.chunk.js": "/BahaMustafa/NOVA/static/js/453.bb420433.chunk.js",
+    "index.html": "/BahaMustafa/NOVA/index.html",
+    "main.b5d5d8c5.css.map": "/BahaMustafa/NOVA/static/css/main.b5d5d8c5.css.map",
+    "main.931af3f9.js.map": "/BahaMustafa/NOVA/static/js/main.931af3f9.js.map",
+    "453.bb420433.chunk.js.map": "/BahaMustafa/NOVA/static/js/453.bb420433.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b5d5d8c5.css",
+    "static/js/main.931af3f9.js"
+  ]
+}
