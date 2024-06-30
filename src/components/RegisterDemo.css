@@ -1,8 +1,8 @@
 .register-demo {
     text-align: center;
     margin-top: 20px;
-    font-family: 'Comic Sans MS', cursive, sans-serif;
-    color: #333;
+    font-family: Arial, sans-serif;
+    color: #000;
     background-color: #ffebcd;
     padding: 20px;
     border-radius: 15px;
@@ -10,7 +10,7 @@
   }
   
   h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-bottom: 20px;
     color: #ff69b4;
   }
@@ -21,7 +21,7 @@
     border-radius: 10px;
     padding: 10px;
     margin-bottom: 20px;
-    font-size: 1.2rem;
+    font-size: 1rem;
     min-height: 50px;
   }
   
@@ -35,10 +35,10 @@
   
   input {
     padding: 10px;
-    font-size: 1.2rem;
+    font-size: 1rem;
     border: 2px solid #ccc;
     border-radius: 10px;
-    width: 200px;
+    width: 150px;
     transition: border-color 0.3s;
     background-color: #ffeb3b;
   }
@@ -53,10 +53,10 @@
   
   button {
     padding: 10px 20px;
-    font-size: 1.2rem;
+    font-size: 1rem;
     cursor: pointer;
     background-color: #ffd700;
-    color: #fff;
+    color: #000;
     border: none;
     border-radius: 10px;
     transition: background-color 0.3s;
